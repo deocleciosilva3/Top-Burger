@@ -1,2 +1,2 @@
-# Top-Burger
+# TopBurger
 Top Burger | Hamburgueria Artesanal
