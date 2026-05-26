@@ -601,6 +601,30 @@ h2 {
   text-align: center;
 }
 
+.creator-credit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+  color: #e7d1bd;
+  font-size: 14px;
+}
+
+.creator-credit strong {
+  color: var(--orange);
+}
+
+.creator-logo {
+  display: block;
+  width: 58px;
+  height: 58px;
+  object-fit: cover;
+  border: 1px solid rgba(255, 132, 0, 0.5);
+  border-radius: 8px;
+  background: #1a1a1a;
+}
+
 @media (max-width: 920px) {
   .nav-shell {
     min-height: auto;
@@ -739,6 +763,11 @@ h2 {
     padding: 58px 0;
   }
 
+  .creator-credit {
+    flex-direction: column;
+    gap: 8px;
+  }
+
   .hero-visual {
     min-height: auto;
   }
@@ -758,7 +787,8 @@ h2 {
 
   .floating-main img,
   .floating-main video {
-    aspect-ratio: 4 / 5;
+    aspect-ratio: 4 / 3;
+    max-height: 360px;
   }
 
   .floating-photo figcaption {
@@ -790,7 +820,8 @@ h2 {
   .collage-main,
   .collage-float {
     width: 100%;
-    aspect-ratio: 4 / 5;
+    aspect-ratio: 4 / 3;
+    max-height: 320px;
     border-width: 1px;
   }
 
@@ -803,7 +834,15 @@ h2 {
   }
 
   .product-card img {
-    aspect-ratio: 1;
+    aspect-ratio: 4 / 3;
+    max-height: 260px;
+  }
+
+  .ambience-card img,
+  .ambience-card video,
+  .location-layout img {
+    aspect-ratio: 4 / 3;
+    max-height: 300px;
   }
 
   .combo-price-card strong {
