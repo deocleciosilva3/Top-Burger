@@ -6,7 +6,7 @@
     <title>Top Burger | Hamburgueria Artesanal em Maranguape</title>
     <meta
       name="description"
-      content="Top Burger em Maranguape-CE. Hamburguers artesanais, combos, batatas, adicionais, bebidas, sucos, vitaminas e milkshakes."
+      content="A Top Burger é uma hamburgueria artesanal em Maranguape especializada em smash burger, hambúrguer gourmet e delivery rápido."
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -14,20 +14,18 @@
     <header class="site-header">
       <nav class="nav-shell" aria-label="Navegacao principal">
         <a class="brand" href="#inicio" aria-label="Top Burger">
-          <span class="brand-mark"><img src="top-burger-logo.jpg" alt="" /></span>
+          <span class="brand-mark"><img src="assets/top-burger-logo.jpg" alt="" /></span>
           <span>
             <strong>Top Burger</strong>
             <small>Hamburgueria Artesanal</small>
           </span>
         </a>
         <div class="nav-actions">
-          <a href="#lanches">Lanches</a>
-          <a href="#bebidas">Bebidas</a>
-          <a href="https://www.instagram.com/topburgermpe/" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="#destaques">Destaques</a>
+          <a href="#combo">Combo</a>
           <a href="#contato">Contato</a>
-          <a class="button button-primary" href="https://wa.me/5585988100236" target="_blank" rel="noreferrer">
-            WhatsApp
-          </a>
+          <a href="https://www.instagram.com/topburgermpe/" target="_blank" rel="noreferrer">Instagram</a>
+          <a class="button button-primary" href="https://wa.me/5585988100236" target="_blank" rel="noreferrer">WhatsApp</a>
         </div>
       </nav>
     </header>
@@ -36,240 +34,193 @@
       <section class="hero">
         <div class="hero-shell">
           <div class="hero-copy">
-            <span class="pill">Delivery das 18h as 23h</span>
+            <span class="pill">Delivery em Maranguape das 18h as 23h</span>
             <h1>Top Burger</h1>
-            <p class="hero-line">Monte o seu combo.</p>
-            <p class="combo-price">por + R$ 9,90</p>
+            <p class="hero-line">O combo que chega com cara de Top Burger.</p>
             <p class="hero-text">
-              Hamburguers artesanais no pao brioche, molho especial da casa, batata crocante,
-              refrigerante gelado e milkshakes para fechar o pedido do jeito certo.
+              A Top Burger é uma hamburgueria artesanal em Maranguape especializada em smash burger,
+              hambúrguer gourmet e delivery rápido. Trabalhamos com pão brioche, blends artesanais,
+              cheddar cremoso, bacon crocante e ingredientes selecionados para oferecer uma experiência
+              diferenciada.
             </p>
             <div class="hero-actions">
-              <a class="button button-primary button-large" href="https://pedido.anota.ai/loja/top-burger-mpe?f=ms" target="_blank" rel="noreferrer">
-                Pedir online
-              </a>
-              <a class="button button-secondary button-large" href="https://wa.me/5585988100236" target="_blank" rel="noreferrer">Chamar no WhatsApp</a>
+              <a class="button button-primary button-large" href="https://wa.me/5585988100236" target="_blank" rel="noreferrer">Pedir pelo WhatsApp</a>
+              <a class="button button-secondary button-large" href="https://pedido.anota.ai/loja/top-burger-mpe?f=ms" target="_blank" rel="noreferrer">Pedir online</a>
             </div>
           </div>
-          <figure class="hero-photo">
-            <img src="burger-double-bacon.png" alt="Double Bacon com dois burgers, cheddar, bacon e batatas fritas" />
+          <div class="hero-visual" aria-label="Fotos em destaque da Top Burger">
+            <figure class="floating-photo floating-main">
+              <video autoplay muted loop playsinline poster="assets/fachada-top-burger.jpeg">
+                <source src="assets/video-apresentacao.mp4" type="video/mp4" />
+              </video>
+              <figcaption>
+                <strong>Top Burger MPE</strong>
+                <span>burger, milkshake e ambiente de verdade</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience-band">
+        <div class="section experience-layout">
+          <div class="experience-collage">
+            <img class="collage-main" src="assets/cliente-burger-destaque.jpg" alt="Burger artesanal e milkshake da Top Burger" />
+            <video class="collage-float" autoplay muted loop playsinline poster="assets/ambiente-balcao.jpeg">
+              <source src="assets/video-ambiente.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div>
+            <span class="section-kicker">Experiencia Top Burger</span>
+            <h2>Combo completo para matar a fome do jeito certo.</h2>
+            <p>
+              Escolha seu burger, complete com batata, refrigerante ou milkshake e receba no conforto
+              de casa durante o nosso horario de delivery.
+            </p>
+            <a class="button button-primary" href="https://wa.me/5585988100236" target="_blank" rel="noreferrer">Chamar agora</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section highlight-section" id="destaques">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">Mais pedidos</span>
+            <h2>Escolha o seu favorito</h2>
+            <p>Tres burgers para decidir rapido e pedir sem enrolacao.</p>
+          </div>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <img src="assets/burger-double-bacon.png" alt="Double Bacon com bacon e cheddar" />
+            <div>
+              <span>R$ 34,00</span>
+              <h3>Double Bacon</h3>
+              <p>Dois blends de 100g, cheddar, bacon ao forno, cebola caramelizada e geleia de pimenta.</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="assets/burger-onion-crunch.png" alt="Onion Crunch com onion rings e barbecue" />
+            <div>
+              <span>R$ 25,00</span>
+              <h3>Onion Crunch</h3>
+              <p>Blend 100g, cheddar, aneis de cebola empanados, molho especial e barbecue.</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="assets/burger-classic-salad.png" alt="Classic Salad com alface, tomate e cebola" />
+            <div>
+              <span>R$ 20,00</span>
+              <h3>Classic Salad</h3>
+              <p>Blend 100g, cheddar, alface, tomate, cebola e molho especial da casa.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section ambience-section">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">Ambiente Top Burger</span>
+            <h2>Um espaco pensado para comer bem e registrar o momento.</h2>
+          </div>
+        </div>
+        <div class="ambience-grid">
+          <article class="ambience-card ambience-wide">
+            <img src="assets/ambiente-balcao.jpeg" alt="Balcao interno da Top Burger com logo na parede" />
+          </article>
+          <article class="ambience-card">
+            <img src="assets/ambiente-mesas.jpeg" alt="Mesas e iluminacao interna da Top Burger" />
+          </article>
+          <article class="ambience-card">
+            <video autoplay muted loop playsinline poster="assets/ambiente-balcao.jpeg">
+              <source src="assets/video-ambiente.mp4" type="video/mp4" />
+            </video>
+          </article>
+        </div>
+      </section>
+
+      <section class="location-showcase">
+        <div class="section location-layout">
+          <div>
+            <span class="section-kicker">Ponto fisico + delivery</span>
+            <h2>Uma hamburgueria de verdade em Maranguape.</h2>
+            <p>
+              A Top Burger fica na Rua Conego Heitor Vieira Cavalcante, 373, no bairro Aldeoma.
+              Passe para conhecer ou peca pelo WhatsApp no horario de delivery.
+            </p>
+            <div class="location-actions">
+              <a class="button button-primary" href="https://wa.me/5585988100236" target="_blank" rel="noreferrer">Chamar no WhatsApp</a>
+              <a class="button button-secondary" href="https://www.instagram.com/topburgermpe/" target="_blank" rel="noreferrer">Ver Instagram</a>
+            </div>
+          </div>
+          <figure>
+            <img src="assets/fachada-top-burger.jpeg" alt="Fachada da Top Burger em Maranguape" />
           </figure>
         </div>
       </section>
 
-      <section class="section" id="lanches">
+      <section class="combo-section" id="combo">
+        <div class="section combo-layout">
+          <div>
+            <span class="section-kicker">Monte seu combo</span>
+            <h2>Adicione batata frita P + refrigerante lata 350ml.</h2>
+            <p>Escolha seu burger favorito e transforme em combo por mais sabor no mesmo pedido.</p>
+          </div>
+          <div class="combo-price-card">
+            <span>Por apenas</span>
+            <strong>+ R$ 9,90</strong>
+            <a class="button button-primary" href="https://pedido.anota.ai/loja/top-burger-mpe?f=ms" target="_blank" rel="noreferrer">Montar combo</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section quick-menu" id="cardapio">
         <div class="section-heading">
           <div>
-            <h2>Lanches artesanais</h2>
-            <p>Pao brioche, molho especial da casa e blends preparados com capricho.</p>
+            <span class="section-kicker">Tambem temos</span>
+            <h2>Acompanhamentos, bebidas e sobremesas</h2>
           </div>
-          <a class="button button-secondary" href="https://pedido.anota.ai/loja/top-burger-mpe?f=ms" target="_blank" rel="noreferrer">Pedir online</a>
+          <a class="button button-secondary" href="https://pedido.anota.ai/loja/top-burger-mpe?f=ms" target="_blank" rel="noreferrer">Ver pedido online</a>
         </div>
 
-        <div class="menu-grid">
-          <article class="menu-card">
-            <div>
-              <h3>Start Burger</h3>
-              <p>Pao brioche, molho especial da casa, blend 100g e queijo cheddar.</p>
-            </div>
-            <strong>R$ 19,00</strong>
-          </article>
-          <article class="menu-card">
-            <div>
-              <h3>Classic Salad</h3>
-              <p>Pao brioche, molho especial da casa, blend 100g, queijo cheddar, alface, tomate e cebola.</p>
-            </div>
-            <strong>R$ 20,00</strong>
-          </article>
-          <article class="menu-card">
-            <div>
-              <h3>Bacon & Cheddar</h3>
-              <p>Pao brioche, molho especial da casa, blend 100g, queijo cheddar e bacon ao forno.</p>
-            </div>
-            <strong>R$ 23,00</strong>
-          </article>
-          <article class="menu-card">
-            <div>
-              <h3>Onion Crunch</h3>
-              <p>Pao brioche, molho especial da casa, blend 100g, queijo cheddar, aneis de cebola empanados e barbecue.</p>
-            </div>
-            <strong>R$ 25,00</strong>
-          </article>
-          <article class="menu-card">
-            <div>
-              <h3>Double Start</h3>
-              <p>Pao brioche, molho especial da casa, 2 blends de 75g e 2 fatias de queijo cheddar.</p>
-            </div>
-            <strong>R$ 24,00</strong>
-          </article>
-          <article class="menu-card">
-            <div>
-              <h3>Double Bacon</h3>
-              <p>2 blends de 100g, 2 fatias de cheddar, bacon ao forno, cebola caramelizada e geleia de pimenta.</p>
-            </div>
-            <strong>R$ 34,00</strong>
-          </article>
-          <article class="menu-card">
-            <div>
-              <h3>Fake Smash</h3>
-              <p>Pao brioche, molho especial da casa, blend 100g, queijo coalho e geleia de pimenta.</p>
-            </div>
-            <strong>R$ 23,00</strong>
-          </article>
-          <article class="menu-card">
-            <div>
-              <h3>Universitario</h3>
-              <p>Pao brioche, molho especial da casa, blend 100g, queijo cheddar e cebola caramelizada.</p>
-            </div>
-            <strong>R$ 21,00</strong>
-          </article>
-          <article class="menu-card">
-            <div>
-              <h3>VIP Burger</h3>
-              <p>Pao brioche, molho especial da casa, 2 blends de 100g, 2 fatias de queijo cheddar e cebola caramelizada.</p>
-            </div>
-            <strong>R$ 31,00</strong>
-          </article>
-          <article class="menu-card featured-card">
-            <div>
-              <h3>Top Burger Supremo</h3>
-              <p>3 blends de 100g, 3 fatias de queijo cheddar, bacon ao forno, cebola caramelizada e geleia de pimenta.</p>
-            </div>
-            <strong>R$ 42,00</strong>
-          </article>
-        </div>
-      </section>
-
-      <section class="section split-section" id="extras">
-        <div>
-          <div class="section-heading compact-heading">
-            <div>
-              <h2>Entradas</h2>
-              <p>Para dividir ou acompanhar seu pedido.</p>
-            </div>
-          </div>
-          <div class="price-list">
-            <div><span>Batata frita P</span><strong>R$ 10,00</strong></div>
-            <div><span>Batata frita M</span><strong>R$ 15,00</strong></div>
-            <div><span>Batata frita G</span><strong>R$ 19,00</strong></div>
-            <div><span>Nuggets - 10 unidades</span><strong>R$ 22,00</strong></div>
-            <div><span>Onion Crunch - 10 unidades</span><strong>R$ 20,00</strong></div>
-          </div>
-        </div>
-
-        <div>
-          <div class="section-heading compact-heading">
-            <div>
-              <h2>Adicionais</h2>
-              <p>Monte seu burger com ainda mais sabor.</p>
-            </div>
-          </div>
-          <div class="price-list">
-            <div><span>Blend de 100g</span><strong>R$ 8,00</strong></div>
-            <div><span>Blend de 75g</span><strong>R$ 7,00</strong></div>
-            <div><span>Queijo cheddar</span><strong>R$ 4,00</strong></div>
-            <div><span>Bacon</span><strong>R$ 4,00</strong></div>
-            <div><span>Onion</span><strong>R$ 4,00</strong></div>
-            <div><span>Salada - alface, tomate e cebola</span><strong>R$ 3,00</strong></div>
-            <div><span>Maionese temperada</span><strong>R$ 2,00</strong></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="drinks-band" id="bebidas">
-        <div class="section">
-          <div class="section-heading">
-            <div>
-              <h2>Bebidas e sobremesas</h2>
-              <p>Refrigerantes, sucos, vitaminas, agua mineral e milkshakes.</p>
-            </div>
-          </div>
-
-          <div class="category-grid">
-            <article class="category-card">
-              <h3>Sucos</h3>
-              <p>Maracuja, caju, acerola ou goiaba.</p>
-              <strong>R$ 7,00</strong>
-            </article>
-            <article class="category-card">
-              <h3>Vitaminas</h3>
-              <p>Maracuja, caju, acerola ou goiaba.</p>
-              <strong>R$ 10,00</strong>
-            </article>
-            <article class="category-card">
-              <h3>Milkshake</h3>
-              <p>Morango ou Ovomaltine.</p>
-              <strong>R$ 22,00</strong>
-            </article>
-            <article class="category-card">
-              <h3>Refrigerante lata 350ml</h3>
-              <p>Coca Cola, Coca Cola Zero, Sao Geraldo, Guarana ou Fanta Laranja.</p>
-              <strong>R$ 6,00</strong>
-            </article>
-            <article class="category-card">
-              <h3>Refrigerante 1 litro</h3>
-              <p>Coca Cola, Coca Cola Zero ou Sao Geraldo por R$ 11,00. Guarana ou Pepsi por R$ 10,00.</p>
-              <strong>A partir de R$ 10,00</strong>
-            </article>
-            <article class="category-card">
-              <h3>Agua mineral 500ml</h3>
-              <p>Com gas por R$ 4,00 ou sem gas por R$ 3,00.</p>
-              <strong>A partir de R$ 3,00</strong>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="fotos">
-        <div class="photo-grid">
+        <div class="quick-grid">
           <article>
-            <img src="burger-double-bacon.png" alt="Double Bacon com dois burgers, cheddar e bacon" />
-            <span>Double Bacon</span>
+            <h3>Entradas</h3>
+            <p>Batata frita P, M ou G, nuggets e onion crunch.</p>
           </article>
           <article>
-            <img src="burger-onion-crunch.png" alt="Onion Crunch com onion rings, cheddar e barbecue" />
-            <span>Onion Crunch</span>
+            <h3>Adicionais</h3>
+            <p>Blend, cheddar, bacon, onion, salada e maionese temperada.</p>
           </article>
           <article>
-            <img src="burger-classic-salad.png" alt="Classic Salad com alface, tomate, cebola e cheddar" />
-            <span>Classic Salad</span>
+            <h3>Bebidas</h3>
+            <p>Refrigerante lata, refrigerante 1 litro e agua mineral.</p>
+          </article>
+          <article>
+            <h3>Sobremesas</h3>
+            <p>Milkshake de morango ou Ovomaltine.</p>
           </article>
         </div>
       </section>
 
-      <section class="info-grid section" id="contato">
-        <article class="info-card">
-          <span>Endereco</span>
-          <h3>Rua Conego Heitor Vieira Cavalcante, 373</h3>
-          <p>Aldeoma, Maranguape-CE</p>
-        </article>
-        <article class="info-card">
-          <span>Delivery</span>
-          <h3>18h as 23h</h3>
-          <p>Peca pelo cardapio online ou pelo WhatsApp.</p>
-        </article>
-        <article class="info-card">
-          <span>WhatsApp</span>
-          <h3><a href="https://wa.me/5585988100236" target="_blank" rel="noreferrer">(85) 98810-0236</a></h3>
-          <p>Atendimento para pedidos, duvidas e retirada.</p>
-          <a class="button button-secondary contact-button" href="https://wa.me/5585988100236" target="_blank" rel="noreferrer">Abrir WhatsApp</a>
-        </article>
-        <article class="info-card">
-          <span>Instagram</span>
-          <h3><a href="https://www.instagram.com/topburgermpe/" target="_blank" rel="noreferrer">@topburgermpe</a></h3>
-          <p>Acompanhe novidades, fotos e atualizacoes da Top Burger.</p>
-          <a class="button button-secondary contact-button" href="https://www.instagram.com/topburgermpe/" target="_blank" rel="noreferrer">Abrir Instagram</a>
-        </article>
-      </section>
-
-      <section class="final-cta">
-        <div class="final-cta-shell">
-          <h2>Ja sabe qual vai ser o seu?</h2>
-          <p>Abra o cardapio online da Top Burger e finalize o pedido em poucos cliques.</p>
-          <div class="final-actions">
-            <a class="button button-primary button-large" href="https://pedido.anota.ai/loja/top-burger-mpe?f=ms" target="_blank" rel="noreferrer">Pedir online</a>
-            <a class="button button-secondary button-large" href="https://wa.me/5585988100236" target="_blank" rel="noreferrer">Chamar no WhatsApp</a>
-            <a class="button button-secondary button-large" href="https://www.instagram.com/topburgermpe/" target="_blank" rel="noreferrer">Instagram</a>
+      <section class="contact-band" id="contato">
+        <div class="section contact-layout">
+          <div>
+            <span class="section-kicker">Bateu a fome?</span>
+            <h2>Chama a Top Burger.</h2>
+            <p>Fale pelo WhatsApp, peca online ou acompanhe as novidades no Instagram.</p>
+          </div>
+          <div class="contact-card">
+            <p><strong>Endereco:</strong> Rua Conego Heitor Vieira Cavalcante, 373, Aldeoma, Maranguape-CE</p>
+            <p><strong>Delivery:</strong> 18h as 23h</p>
+            <p><strong>WhatsApp:</strong> (85) 98810-0236</p>
+            <div class="contact-actions">
+              <a class="button button-primary" href="https://wa.me/5585988100236" target="_blank" rel="noreferrer">WhatsApp</a>
+              <a class="button button-secondary" href="https://pedido.anota.ai/loja/top-burger-mpe?f=ms" target="_blank" rel="noreferrer">Pedido online</a>
+              <a class="button button-secondary" href="https://www.instagram.com/topburgermpe/" target="_blank" rel="noreferrer">Instagram</a>
+            </div>
           </div>
         </div>
       </section>
