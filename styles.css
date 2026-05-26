@@ -604,7 +604,7 @@ h2 {
 @media (max-width: 920px) {
   .nav-shell {
     min-height: auto;
-    align-items: flex-start;
+    align-items: center;
     padding: 14px 0;
   }
 
@@ -626,6 +626,12 @@ h2 {
   .hero-visual {
     min-height: 540px;
     max-width: 560px;
+  }
+
+  .floating-main {
+    left: 0;
+    right: auto;
+    width: min(100%, 520px);
   }
 
   .section-heading {
@@ -653,6 +659,11 @@ h2 {
     height: auto;
     aspect-ratio: 4 / 5;
   }
+
+  .location-layout figure {
+    max-width: 520px;
+    transform: none;
+  }
 }
 
 @media (max-width: 560px) {
@@ -675,10 +686,53 @@ h2 {
     display: none;
   }
 
+  .nav-actions {
+    gap: 10px;
+  }
+
+  .nav-actions .button {
+    width: auto;
+    min-height: 40px;
+    padding-inline: 14px;
+  }
+
   .button {
-    width: 100%;
     padding-inline: 12px;
     font-size: 13px;
+  }
+
+  .hero-actions .button,
+  .contact-actions .button,
+  .location-actions .button,
+  .section-heading .button,
+  .combo-price-card .button {
+    width: 100%;
+  }
+
+  .hero-shell {
+    gap: 30px;
+    padding: 34px 0 44px;
+  }
+
+  h1 {
+    font-size: clamp(54px, 18vw, 76px);
+  }
+
+  h2 {
+    font-size: clamp(30px, 11vw, 44px);
+  }
+
+  .hero-line {
+    font-size: clamp(28px, 10vw, 42px);
+  }
+
+  .hero-text,
+  .section-heading p,
+  .combo-layout p,
+  .contact-layout p,
+  .location-layout p {
+    font-size: 16px;
+    line-height: 1.55;
   }
 
   .section {
@@ -686,18 +740,88 @@ h2 {
   }
 
   .hero-visual {
-    min-height: 430px;
+    min-height: auto;
+  }
+
+  .floating-photo {
+    position: relative;
+    border-radius: 14px;
+    transform: none;
   }
 
   .floating-main {
-    width: 82%;
+    top: auto;
+    right: auto;
+    left: auto;
+    width: 100%;
+  }
+
+  .floating-main img,
+  .floating-main video {
+    aspect-ratio: 4 / 5;
+  }
+
+  .floating-photo figcaption {
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    padding: 12px;
+  }
+
+  .floating-photo figcaption strong {
+    font-size: 15px;
   }
 
   .experience-collage {
-    min-height: 390px;
+    min-height: auto;
+    display: grid;
+    gap: 14px;
   }
 
-  .location-actions .button {
+  .experience-collage img,
+  .experience-collage video {
+    position: relative;
+    inset: auto;
     width: 100%;
+    border-radius: 14px;
+    transform: none;
+  }
+
+  .collage-main,
+  .collage-float {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    border-width: 1px;
+  }
+
+  .product-card,
+  .ambience-card,
+  .contact-card,
+  .combo-price-card,
+  .quick-grid article {
+    border-radius: 14px;
+  }
+
+  .product-card img {
+    aspect-ratio: 1;
+  }
+
+  .combo-price-card strong {
+    font-size: clamp(42px, 16vw, 62px);
+  }
+}
+
+@media (max-width: 380px) {
+  .brand strong {
+    font-size: 16px;
+  }
+
+  .nav-actions .button {
+    padding-inline: 10px;
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 48px;
   }
 }
