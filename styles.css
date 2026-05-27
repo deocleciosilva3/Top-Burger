@@ -366,6 +366,24 @@ h2 {
   line-height: 1.5;
 }
 
+.product-order {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  margin-top: 16px;
+  border-radius: 8px;
+  background: var(--orange);
+  color: #180700;
+  padding: 0 14px;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.product-order:hover {
+  background: #ff9b26;
+}
+
 .experience-band {
   border-bottom: 1px solid var(--line);
   background:
